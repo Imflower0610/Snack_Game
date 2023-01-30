@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍈 FRUIT FLIP 🍍</title>
+  <script src="../js/default.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $("#a").on("click", function () {
+        $("#games").stop().slideToggle("fast");
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="../css/init.css" />
+  <link rel="stylesheet" href="../css/default.css" />
+  <link rel="stylesheet" href="../css/card.css">
+</head>
+
+<body>
+  <div id="body">
+    <header id="header">
+      <div style="text-align: center">
+        <a href="../index.html"><img id="img" src="../image/title.png" /></a>
+      </div>
+      <nav>
+        <div id="menu">
+          <div><a href="../index.html"> HOME</a></div>
+          <div id="a">
+            GAME
+            <ul id="games">
+              <li><a href="wordle.html">&nbsp;&nbsp; WORDLE GAME</a></li>
+              <li><a href="fruit.html">&nbsp;&nbsp; FRUIT GAME</a></li>
+              <li><a href="maze.html">&nbsp;&nbsp; MAZE GAME</a></li>
+              <li><a href="tetris.html">&nbsp;&nbsp; TETRIS GAME</a></li>
+              <li><a href="chick.html">&nbsp;&nbsp; CHICK GAME</a></li>
+              <li><a href="hangman.html">&nbsp;&nbsp; HANGMAN GAME</a></li>
+              <li><a href="2048.html">&nbsp;&nbsp; 2048 GAME</a></li>
+              <li><a href="rsp.html">&nbsp;&nbsp; R.S.P GAME</a></li>
+              <li><a href="bingo.html">&nbsp;&nbsp; BINGO GAME</a></li>
+              <li><a href="dice.html">&nbsp;&nbsp; DICE GAME</a></li>
+            </ul>
+          </div>
+          <div><a href="join.html">JOIN US</a></div>
+          <div><a href="login.html"> LOG IN</a></div>
+        </div>
+      </nav>
+    </header>
+    <div class="content-wrap">
+      <div class="game-wrap">
+        <div class="game-display">
+          <div class="line1 line">
+            <div class="box1 box"></div>
+            <div class="box2 box"></div>
+            <div class="box3 box"></div>
+            <div class="box4 box"></div>
+          </div>
+          <div class="line2 line">
+            <div class="box5 box"></div>
+            <div class="box6 box"></div>
+            <div class="box7 box"></div>
+            <div class="box8 box"></div>
+          </div>
+          <div class="line3 line">
+            <div class="box9 box"></div>
+            <div class="box10 box"></div>
+            <div class="box11 box"></div>
+            <div class="box12 box"></div>
+          </div>
+          <div class="line4 line">
+            <div class="box13 box"></div>
+            <div class="box14 box"></div>
+            <div class="box15 box"></div>
+            <div class="box16 box"></div>
+          </div>
+        </div>
+        <div class="game-bt">
+          <button class="bt">게임 시작</button>
+        </div>
+        <div class="game-over">
+          <span id="won">YOU WON!!!</span>
+          <span id="click-cnt"></span>
+          <br> F5 to restart
+        </div>
+      </div>
+      <div id="dis_wrap">
+        <div id="dis">
+          <p>
+          <h5 align="center"> 🍈 FRUIT FLIP 🍍 </h5><br />
+          &nbsp; 같은 모양의 과일을 찾아보세요!!<br>
+          &nbsp; 두 개의 카드를 클릭 했을 때<br>
+          &nbsp;공개된 카드의 과일 모양이 <br>
+          &nbsp;같다면 정답!<br>
+          &nbsp; 최대한 적은 클릭으로 과일을 찾아보세요!<br>
+         </p>
+          </p>
+        </div>
+        <div id="dis">
+          <h5 align="center">* 게임방법 *</h5>
+          <p><br />
+            &nbsp; 시작 버튼을 클릭하고 카드를 뒤집어보세요!<br />
+            &nbsp; 두개의 카드를 클릭했을 때 공개된 카드의 과일이 같으면 정답! <br>
+            &nbsp; 최대한 적은 클릭으로 정답을 찾아보세요!!<br />
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/card.js"></script>
+
+</html>

@@ -1,0 +1,220 @@
+.content-wrap {
+  margin-top: 30px;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#dis_wrap {
+  width: 29%;
+}
+#dis {
+  width: 250px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #2c70ee;
+  border-radius: 20px;
+  line-height: 1.6;
+}
+
+.game-wrap {
+  width: 66.667%;
+  height: 800px;
+  /* border: 1px solid #2c70ee; */
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.game-display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  perspective: 300px;
+  border: 3px solid #2c70ee;
+  border-radius: 20px;
+}
+
+.game-bt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.game-bt button {
+  width: 200px;
+  height: 50px;
+  border: 3px solid #2c70ee;
+  background-color: #2c70ee;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.game-over {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  color: #fff;
+  background: #2c70ee;
+  border-radius: 30px;
+  z-index: 999;
+}
+
+#won {
+  font-size: 60px;
+}
+
+.line-div {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.card-div {
+  z-index: 999;
+  text-align: center;
+  line-height: 182px;
+  font-size: 80px;
+  cursor: pointer;
+  width: 20%;
+  height: 90%;
+  /* visibility: hidden; */
+  opacity: 0;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+
+.card-div:hover {
+  background: #ffd9ec;
+}
+
+.box:hover {
+  background: #ffd9ec;
+}
+
+.line {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.box:hover {
+  background: #ffd9ec;
+}
+
+.box {
+  position: absolute;
+  text-align: center;
+  line-height: 182px;
+  font-size: 80px;
+  cursor: pointer;
+  width: 20%;
+  height: 90%;
+  border: 1px solid #2c70ee;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+
+.line1 {
+  top: 0;
+  left: 0;
+}
+.line2 {
+  top: 200px;
+  left: 0;
+}
+.line3 {
+  top: 400px;
+  left: 0;
+}
+.line4 {
+  top: 600px;
+  left: 0;
+}
+.box1 {
+  top: -1px;
+  left: 19px;
+}
+.box2 {
+  top: -1px;
+  left: 219px;
+}
+.box3 {
+  top: -1px;
+  left: 419px;
+}
+.box4 {
+  top: -1px;
+  left: 619px;
+}
+.box5 {
+  top: -1px;
+  left: 19px;
+}
+.box6 {
+  top: -1px;
+  left: 219px;
+}
+.box7 {
+  top: -1px;
+  left: 419px;
+}
+.box8 {
+  top: -1px;
+  left: 619px;
+}
+.box9 {
+  top: -1px;
+  left: 19px;
+}
+.box10 {
+  top: -1px;
+  left: 219px;
+}
+.box11 {
+  top: -1px;
+  left: 419px;
+}
+.box12 {
+  top: -1px;
+  left: 619px;
+}
+.box13 {
+  top: -1px;
+  left: 19px;
+}
+.box14 {
+  top: -1px;
+  left: 219px;
+}
+.box15 {
+  top: -1px;
+  left: 419px;
+}
+.box16 {
+  top: -1px;
+  left: 619px;
+}
